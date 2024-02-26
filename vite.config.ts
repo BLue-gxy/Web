@@ -8,6 +8,7 @@ import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/github-actions-deploy-dynamic',
   // server: {
   //   proxy: {
   //     '/api': {
